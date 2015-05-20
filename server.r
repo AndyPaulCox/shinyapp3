@@ -21,7 +21,7 @@ shinyServer(function(input, output) {
     }
     #load required libraries
     library(TraMineR)
-    #library(reshape)
+
     library(cluster)
 #read in data
   dictU = read.delim("dictU.csv",sep=",",stringsAsFactors=FALSE)
